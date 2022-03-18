@@ -1,8 +1,10 @@
 #!/bin/bash
 
+# Install grub
+sudo pacman -S grub efibootmgr dosfstools os-prober mtools
 # Install drivers, i3, xorg, picom, alacritty and sddm
 sudo pacman -Syu
-sudo pacman -S xf86-video-nouveau xf86-video-intel mesa i3-gaps i3blocks xorg picom alacritty sddm vim xorg-setxkbmap rofi pulseaudio man wget pavucontrol nitrogen lxappearance arch-theme  
+sudo pacman -S xf86-video-nouveau xf86-video-intel mesa i3-gaps i3blocks xorg picom alacritty sddm xorg-setxkbmap rofi pulseaudio man wget pavucontrol nitrogen lxappearance arch-theme  
 
 # Installing yay
 sudo pacman -S --need base-devel
