@@ -15,7 +15,7 @@ makepkg -si
 sudo systemctl enable sddm.service
 
 # Installing various software
-sudo yay -S vivaldi nerd-fonts-fira-code neovim zip unzip
+sudo yay -S vivaldi nerd-fonts-fira-code neovim zip unzip thunar
 
 # Copying awesome fonts
 wget https://github.com/FortAwesome/Font-Awesome/releases/download/6.1.0/fontawesome-free-6.1.0-web.zip
