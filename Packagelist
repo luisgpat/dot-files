@@ -58,4 +58,4 @@ libinput
 #Configuracion extra
 fish / zsh
 neofetch
-neovim ide
+neovim ide - Lunarvim (add markdown support)
