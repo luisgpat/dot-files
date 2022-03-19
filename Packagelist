@@ -29,6 +29,8 @@ i3blocks
 picom
 rofi
 pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
 lxappearance
 nitrogen
 yay
