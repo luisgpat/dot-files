@@ -1,0 +1,57 @@
+# A instalar en pacstrap:
+base
+linux
+linux-firmware
+vim
+git
+man
+wget
+networkmanager
+sudo
+
+#Chroot
+grub 
+efibootmgr 
+dosfstools 
+os-prober 
+mtools
+alacritty
+Nota: enable networkmanager y crear/configurar los usuario
+
+#First boot
+xf86-video-intel
+xf86-video-nouveau
+mesa
+xorg
+sddm
+i3-gaps
+i3blocks
+picom
+rofi
+pulseaudio
+lxappearance
+nitrogen
+yay
+nerd-fonts-fira-code
+awesomefonts (clone repository)
+scrot
+tmux
+vivaldi
+vivaldi-codecs
+
+#Configuracion inicial
+vim
+i3
+i3blocks
+alacritty
+audio
+rofi
+picom
+lxappearance and nitrogen
+libinput
+
+
+#Configuracion extra
+fish / zsh
+neofetch
+neovim ide
